@@ -1,0 +1,62 @@
+Warning: NLS unused message: QTEST in: com.kms.katalon.constants.globalMessages
+Warning: NLS missing message: QTEST_NAME in: com.kms.katalon.constants.globalMessages
+2025-07-27 12:14:40.036 INFO  c.k.katalon.core.main.TestSuiteExecutor  - START Test Suites/validateProducts
+2025-07-27 12:14:40.311 INFO  c.k.katalon.core.main.TestSuiteExecutor  - userFullName = Reetanshu
+2025-07-27 12:14:40.311 INFO  c.k.katalon.core.main.TestSuiteExecutor  - projectName = katalon-automation
+2025-07-27 12:14:40.311 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostName = Reetanshu Kumar - LAPTOP-NLJV8V8E
+2025-07-27 12:14:40.311 INFO  c.k.katalon.core.main.TestSuiteExecutor  - os = Windows 11 64bit
+2025-07-27 12:14:40.311 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostAddress = 192.168.0.5
+2025-07-27 12:14:40.317 INFO  c.k.katalon.core.main.TestSuiteExecutor  - katalonVersion = 10.2.4.0
+2025-07-27 12:14:41.553 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2025-07-27 12:14:41.553 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/utility/webuiLogin
+2025-07-27 12:14:42.072 DEBUG testcase.webuiLogin                      - 1: projectUtils.LoginLogoutUtils.webLogin(loginUrl, username, password)
+2025-07-27 12:14:42.926 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2025-07-27 12:14:42.935 INFO  c.k.k.c.w.util.WebDriverPropertyUtil     - User set preference: ['args', '[--incognito]']
+2025-07-27 12:14:43.035 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+Jul 27, 2025 12:14:45 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 138, returning the closest version; found: 135; Please update to a Selenium version that supports CDP version 138
+2025-07-27 12:14:46.026 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = 73b5d82d245cd878e71439e19d7c4c88
+2025-07-27 12:14:46.065 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 138.0.7204.158
+2025-07-27 12:14:46.067 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 11
+2025-07-27 12:14:46.081 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.28.1
+2025-07-27 12:14:46.123 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2025-07-27 12:14:51.918 INFO  com.kms.katalon.core.util.KeywordUtil    - The login is succeeded and number of product items is 6
+2025-07-27 12:14:52.618 INFO  c.kms.katalon.core.webui.util.FileUtil   - 0 hidden object(s)
+2025-07-27 12:14:52.920 INFO  k.k.c.m.CustomKeywordDelegatingMetaClass - projectUtils.LoginLogoutUtils.webLogin is PASSED
+2025-07-27 12:14:52.920 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/utility/webuiLogin
+2025-07-27 12:14:52.920 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2025-07-27 12:14:52.920 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/webui/products/validateProductCount
+2025-07-27 12:14:53.148 DEBUG testcase.validateProductCount            - 1: expectedProductCount = 6
+2025-07-27 12:14:53.152 DEBUG testcase.validateProductCount            - 2: projectUtils.Products.validateProductCount(expectedProductCount)
+2025-07-27 12:14:53.499 INFO  k.k.c.m.CustomKeywordDelegatingMetaClass - projectUtils.Products.validateProductCount is PASSED
+2025-07-27 12:14:53.503 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/webui/products/validateProductCount
+2025-07-27 12:14:53.517 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2025-07-27 12:14:53.517 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/webui/products/addMultipleProducts
+2025-07-27 12:14:53.685 DEBUG testcase.addMultipleProducts             - 1: projectUtils.Products.addMultipleProducts()
+2025-07-27 12:14:56.967 INFO  c.kms.katalon.core.webui.util.FileUtil   - 0 hidden object(s)
+2025-07-27 12:15:03.877 INFO  com.kms.katalon.core.util.KeywordUtil    - The final checkout message is Thank you for your order!
+2025-07-27 12:15:04.084 INFO  c.kms.katalon.core.webui.util.FileUtil   - 0 hidden object(s)
+2025-07-27 12:15:04.222 INFO  k.k.c.m.CustomKeywordDelegatingMetaClass - projectUtils.Products.selectAndProductToCart is PASSED
+2025-07-27 12:15:06.827 INFO  c.kms.katalon.core.webui.util.FileUtil   - 0 hidden object(s)
+2025-07-27 12:15:12.186 INFO  com.kms.katalon.core.util.KeywordUtil    - The final checkout message is Thank you for your order!
+2025-07-27 12:15:12.418 INFO  c.kms.katalon.core.webui.util.FileUtil   - 0 hidden object(s)
+2025-07-27 12:15:12.553 INFO  k.k.c.m.CustomKeywordDelegatingMetaClass - projectUtils.Products.selectAndProductToCart is PASSED
+2025-07-27 12:15:14.917 INFO  c.kms.katalon.core.webui.util.FileUtil   - 0 hidden object(s)
+2025-07-27 12:15:20.460 INFO  com.kms.katalon.core.util.KeywordUtil    - The final checkout message is Thank you for your order!
+2025-07-27 12:15:20.695 INFO  c.kms.katalon.core.webui.util.FileUtil   - 0 hidden object(s)
+2025-07-27 12:15:20.888 INFO  k.k.c.m.CustomKeywordDelegatingMetaClass - projectUtils.Products.selectAndProductToCart is PASSED
+2025-07-27 12:15:23.229 INFO  c.kms.katalon.core.webui.util.FileUtil   - 0 hidden object(s)
+2025-07-27 12:15:28.862 INFO  com.kms.katalon.core.util.KeywordUtil    - The final checkout message is Thank you for your order!
+2025-07-27 12:15:29.106 INFO  c.kms.katalon.core.webui.util.FileUtil   - 0 hidden object(s)
+2025-07-27 12:15:29.337 INFO  k.k.c.m.CustomKeywordDelegatingMetaClass - projectUtils.Products.selectAndProductToCart is PASSED
+2025-07-27 12:15:29.348 INFO  k.k.c.m.CustomKeywordDelegatingMetaClass - projectUtils.Products.addMultipleProducts is PASSED
+2025-07-27 12:15:29.348 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/webui/products/addMultipleProducts
+2025-07-27 12:15:29.358 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2025-07-27 12:15:29.359 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/utility/webuiLogout
+2025-07-27 12:15:29.536 DEBUG testcase.webuiLogout                     - 1: projectUtils.LoginLogoutUtils.logout(logoutUrl)
+2025-07-27 12:15:31.368 INFO  k.k.c.m.CustomKeywordDelegatingMetaClass - projectUtils.LoginLogoutUtils.logout is PASSED
+2025-07-27 12:15:31.373 DEBUG testcase.webuiLogout                     - 2: closeBrowser()
+2025-07-27 12:15:31.758 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/utility/webuiLogout
+2025-07-27 12:15:31.852 INFO  c.k.katalon.core.main.TestSuiteExecutor  - --------------------
+2025-07-27 12:15:31.852 INFO  c.k.katalon.core.main.TestSuiteExecutor  - END Test Suites/validateProducts
+2025-07-27 12:15:31.852 INFO  c.k.katalon.core.main.TestSuiteExecutor  - ====================

@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="validateProducts" time="51.494" tests="4" failures="0" errors="0">
+   <testsuite name="validateProducts" tests="4" failures="0" errors="0" time="51.494" skipped="0" timestamp="2025-07-27T06:44:40.264Z" hostname="Reetanshu Kumar - LAPTOP-NLJV8V8E" id="Test Suites/validateProducts">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="C:\\Users\\Reetanshu Kumar\\Documents\\GitHub\\katalon-automation\\Reports\\20250727_121435\\validateProducts\\20250727_121435"/>
+         <property name="logFiles" value="C:\\Users\\Reetanshu Kumar\\Documents\\GitHub\\katalon-automation\\Reports\\20250727_121435\\validateProducts\\20250727_121435\\console0.log, C:\\Users\\Reetanshu Kumar\\Documents\\GitHub\\katalon-automation\\Reports\\20250727_121435\\validateProducts\\20250727_121435\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\Reetanshu Kumar\\Documents\\GitHub\\katalon-automation\\Reports\\20250727_121435\\validateProducts\\20250727_121435\\1753598691994.png, C:\\Users\\Reetanshu Kumar\\Documents\\GitHub\\katalon-automation\\Reports\\20250727_121435\\validateProducts\\20250727_121435\\1753598696826.png, C:\\Users\\Reetanshu Kumar\\Documents\\GitHub\\katalon-automation\\Reports\\20250727_121435\\validateProducts\\20250727_121435\\1753598703877.png, C:\\Users\\Reetanshu Kumar\\Documents\\GitHub\\katalon-automation\\Reports\\20250727_121435\\validateProducts\\20250727_121435\\1753598706632.png, C:\\Users\\Reetanshu Kumar\\Documents\\GitHub\\katalon-automation\\Reports\\20250727_121435\\validateProducts\\20250727_121435\\1753598712204.png, C:\\Users\\Reetanshu Kumar\\Documents\\GitHub\\katalon-automation\\Reports\\20250727_121435\\validateProducts\\20250727_121435\\1753598714727.png, C:\\Users\\Reetanshu Kumar\\Documents\\GitHub\\katalon-automation\\Reports\\20250727_121435\\validateProducts\\20250727_121435\\1753598720469.png, C:\\Users\\Reetanshu Kumar\\Documents\\GitHub\\katalon-automation\\Reports\\20250727_121435\\validateProducts\\20250727_121435\\1753598723011.png, C:\\Users\\Reetanshu Kumar\\Documents\\GitHub\\katalon-automation\\Reports\\20250727_121435\\validateProducts\\20250727_121435\\1753598728878.png"/>
+         <property name="hostName" value="Reetanshu Kumar - LAPTOP-NLJV8V8E"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="10.2.4.0"/>
+         <property name="browser" value="Chrome 138.0.7204.158"/>
+         <property name="userFullName" value="Reetanshu"/>
+         <property name="hostAddress" value="192.168.0.5"/>
+         <property name="sessionId" value="73b5d82d245cd878e71439e19d7c4c88"/>
+         <property name="projectName" value="katalon-automation"/>
+         <property name="seleniumVersion" value="4.28.1"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/utility/webuiLogin" time="11.367" classname="Test Cases/utility/webuiLogin" status="PASSED">
+         <system-out><![CDATA[27-07-2025T12:14:41 - [TEST_CASE][PASSED] - Test Cases/utility/webuiLogin: Test Cases/utility/webuiLogin
+
+27-07-2025T12:14:42 - [TEST_STEP][PASSED] - projectUtils.LoginLogoutUtils.webLogin(loginUrl, username, password): projectUtils.LoginLogoutUtils.webLogin is PASSED
+
+27-07-2025T12:14:42 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+27-07-2025T12:14:42 - [MESSAGE][INFO] - User set preference: ['args', '[--incognito]']
+
+27-07-2025T12:14:43 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+27-07-2025T12:14:47 - [MESSAGE][PASSED] - Browser is opened with url: 'https://www.saucedemo.com/'
+
+27-07-2025T12:14:47 - [MESSAGE][PASSED] - Current window maximized
+
+27-07-2025T12:14:49 - [MESSAGE][PASSED] - Text 'standard_user' is set on object 'Object Repository/webui/loginPage/usernameInput'
+
+27-07-2025T12:14:50 - [MESSAGE][PASSED] - Text 'secret_sauce' is set on object 'Object Repository/webui/loginPage/passwordInput'
+
+27-07-2025T12:14:50 - [MESSAGE][PASSED] - Object: 'Object Repository/webui/loginPage/loginButton' is clicked on
+
+27-07-2025T12:14:51 - [MESSAGE][PASSED] - Object 'Object Repository/webui/landingPage/inventoryItems' is visible
+
+27-07-2025T12:14:51 - [MESSAGE][PASSED] - Found web elements by test object Object Repository/webui/landingPage/inventoryItems
+
+27-07-2025T12:14:51 - [MESSAGE][INFO] - The login is succeeded and number of product items is 6
+
+27-07-2025T12:14:52 - [MESSAGE][INFO] - 0 hidden object(s)
+
+27-07-2025T12:14:52 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\Reetanshu Kumar\\Documents\\GitHub\\katalon-automation\\Reports\\20250727_121435\\validateProducts\\20250727_121435\\1753598691994.png]]
+
+27-07-2025T12:14:52 - [MESSAGE][PASSED] - projectUtils.LoginLogoutUtils.webLogin is PASSED]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/webui/products/validateProductCount" time="0.568" classname="Test Cases/webui/products/validateProductCount" status="PASSED">
+         <system-out><![CDATA[27-07-2025T12:14:52 - [TEST_CASE][PASSED] - Test Cases/webui/products/validateProductCount: Test Cases/webui/products/validateProductCount
+
+27-07-2025T12:14:53 - [TEST_STEP][PASSED] - expectedProductCount = 6: null
+
+27-07-2025T12:14:53 - [TEST_STEP][PASSED] - projectUtils.Products.validateProductCount(expectedProductCount): projectUtils.Products.validateProductCount is PASSED
+
+27-07-2025T12:14:53 - [MESSAGE][PASSED] - Found web elements by test object Object Repository/webui/landingPage/inventoryItems
+
+27-07-2025T12:14:53 - [MESSAGE][PASSED] - projectUtils.Products.validateProductCount is PASSED]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/webui/products/addMultipleProducts" time="35.829" classname="Test Cases/webui/products/addMultipleProducts" status="PASSED">
+         <system-out><![CDATA[27-07-2025T12:14:53 - [TEST_CASE][PASSED] - Test Cases/webui/products/addMultipleProducts: Test Cases/webui/products/addMultipleProducts
+
+27-07-2025T12:14:53 - [TEST_STEP][PASSED] - projectUtils.Products.addMultipleProducts(): projectUtils.Products.addMultipleProducts is PASSED
+
+27-07-2025T12:14:54 - [MESSAGE][PASSED] - Current window's url is: 'https://www.saucedemo.com/inventory.html'
+
+27-07-2025T12:14:55 - [MESSAGE][PASSED] - Object 'Object Repository/webui/productsCatalogPage/addProductToCart' is visible
+
+27-07-2025T12:14:55 - [MESSAGE][PASSED] - Object: 'Object Repository/webui/productsCatalogPage/addProductToCart' is clicked on
+
+27-07-2025T12:14:56 - [MESSAGE][PASSED] - Object: 'Object Repository/webui/productsCatalogPage/cartLink' is clicked on
+
+27-07-2025T12:14:56 - [MESSAGE][PASSED] - Object 'Object Repository/webui/cartPage/cartItemName' is visible
+
+27-07-2025T12:14:56 - [MESSAGE][INFO] - 0 hidden object(s)
+
+27-07-2025T12:14:57 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\Reetanshu Kumar\\Documents\\GitHub\\katalon-automation\\Reports\\20250727_121435\\validateProducts\\20250727_121435\\1753598696826.png]]
+
+27-07-2025T12:14:57 - [MESSAGE][PASSED] - Object: 'Object Repository/webui/cartPage/checkOut' is clicked on
+
+27-07-2025T12:14:57 - [MESSAGE][PASSED] - Object 'Object Repository/webui/checkoutPage/firstName' is present
+
+27-07-2025T12:14:58 - [MESSAGE][PASSED] - Text 'Katalon' is set on object 'Object Repository/webui/checkoutPage/firstName'
+
+27-07-2025T12:15:01 - [MESSAGE][PASSED] - Text 'Test' is set on object 'Object Repository/webui/checkoutPage/lastName'
+
+27-07-2025T12:15:02 - [MESSAGE][PASSED] - Text '10001' is set on object 'Object Repository/webui/checkoutPage/postalCode'
+
+27-07-2025T12:15:02 - [MESSAGE][PASSED] - Object: 'Object Repository/webui/checkoutPage/continueButton' is clicked on
+
+27-07-2025T12:15:03 - [MESSAGE][PASSED] - Object: 'Object Repository/webui/checkoutPage/checkoutFinish' is clicked on
+
+27-07-2025T12:15:03 - [MESSAGE][PASSED] - Text of object 'Object Repository/webui/checkoutPage/checkoutCompleteMessage' is: 'Thank you for your order!'
+
+27-07-2025T12:15:03 - [MESSAGE][INFO] - The final checkout message is Thank you for your order!
+
+27-07-2025T12:15:04 - [MESSAGE][INFO] - 0 hidden object(s)
+
+27-07-2025T12:15:04 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\Reetanshu Kumar\\Documents\\GitHub\\katalon-automation\\Reports\\20250727_121435\\validateProducts\\20250727_121435\\1753598703877.png]]
+
+27-07-2025T12:15:04 - [MESSAGE][PASSED] - projectUtils.Products.selectAndProductToCart is PASSED
+
+27-07-2025T12:15:04 - [MESSAGE][PASSED] - Current window's url is: 'https://www.saucedemo.com/checkout-complete.html'
+
+27-07-2025T12:15:04 - [MESSAGE][PASSED] - Navigate to 'https://www.saucedemo.com/inventory.html' successfully
+
+27-07-2025T12:15:05 - [MESSAGE][PASSED] - Object 'Object Repository/webui/productsCatalogPage/addProductToCart' is visible
+
+27-07-2025T12:15:05 - [MESSAGE][PASSED] - Object: 'Object Repository/webui/productsCatalogPage/addProductToCart' is clicked on
+
+27-07-2025T12:15:06 - [MESSAGE][PASSED] - Object: 'Object Repository/webui/productsCatalogPage/cartLink' is clicked on
+
+27-07-2025T12:15:06 - [MESSAGE][PASSED] - Object 'Object Repository/webui/cartPage/cartItemName' is visible
+
+27-07-2025T12:15:06 - [MESSAGE][INFO] - 0 hidden object(s)
+
+27-07-2025T12:15:06 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\Reetanshu Kumar\\Documents\\GitHub\\katalon-automation\\Reports\\20250727_121435\\validateProducts\\20250727_121435\\1753598706632.png]]
+
+27-07-2025T12:15:07 - [MESSAGE][PASSED] - Object: 'Object Repository/webui/cartPage/checkOut' is clicked on
+
+27-07-2025T12:15:07 - [MESSAGE][PASSED] - Object 'Object Repository/webui/checkoutPage/firstName' is present
+
+27-07-2025T12:15:08 - [MESSAGE][PASSED] - Text 'Katalon' is set on object 'Object Repository/webui/checkoutPage/firstName'
+
+27-07-2025T12:15:09 - [MESSAGE][PASSED] - Text 'Test' is set on object 'Object Repository/webui/checkoutPage/lastName'
+
+27-07-2025T12:15:10 - [MESSAGE][PASSED] - Text '10001' is set on object 'Object Repository/webui/checkoutPage/postalCode'
+
+27-07-2025T12:15:11 - [MESSAGE][PASSED] - Object: 'Object Repository/webui/checkoutPage/continueButton' is clicked on
+
+27-07-2025T12:15:11 - [MESSAGE][PASSED] - Object: 'Object Repository/webui/checkoutPage/checkoutFinish' is clicked on
+
+27-07-2025T12:15:12 - [MESSAGE][PASSED] - Text of object 'Object Repository/webui/checkoutPage/checkoutCompleteMessage' is: 'Thank you for your order!'
+
+27-07-2025T12:15:12 - [MESSAGE][INFO] - The final checkout message is Thank you for your order!
+
+27-07-2025T12:15:12 - [MESSAGE][INFO] - 0 hidden object(s)
+
+27-07-2025T12:15:12 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\Reetanshu Kumar\\Documents\\GitHub\\katalon-automation\\Reports\\20250727_121435\\validateProducts\\20250727_121435\\1753598712204.png]]
+
+27-07-2025T12:15:12 - [MESSAGE][PASSED] - projectUtils.Products.selectAndProductToCart is PASSED
+
+27-07-2025T12:15:12 - [MESSAGE][PASSED] - Current window's url is: 'https://www.saucedemo.com/checkout-complete.html'
+
+27-07-2025T12:15:12 - [MESSAGE][PASSED] - Navigate to 'https://www.saucedemo.com/inventory.html' successfully
+
+27-07-2025T12:15:13 - [MESSAGE][PASSED] - Object 'Object Repository/webui/productsCatalogPage/addProductToCart' is visible
+
+27-07-2025T12:15:13 - [MESSAGE][PASSED] - Object: 'Object Repository/webui/productsCatalogPage/addProductToCart' is clicked on
+
+27-07-2025T12:15:14 - [MESSAGE][PASSED] - Object: 'Object Repository/webui/productsCatalogPage/cartLink' is clicked on
+
+27-07-2025T12:15:14 - [MESSAGE][PASSED] - Object 'Object Repository/webui/cartPage/cartItemName' is visible
+
+27-07-2025T12:15:14 - [MESSAGE][INFO] - 0 hidden object(s)
+
+27-07-2025T12:15:15 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\Reetanshu Kumar\\Documents\\GitHub\\katalon-automation\\Reports\\20250727_121435\\validateProducts\\20250727_121435\\1753598714727.png]]
+
+27-07-2025T12:15:15 - [MESSAGE][PASSED] - Object: 'Object Repository/webui/cartPage/checkOut' is clicked on
+
+27-07-2025T12:15:16 - [MESSAGE][PASSED] - Object 'Object Repository/webui/checkoutPage/firstName' is present
+
+27-07-2025T12:15:16 - [MESSAGE][PASSED] - Text 'Katalon' is set on object 'Object Repository/webui/checkoutPage/firstName'
+
+27-07-2025T12:15:17 - [MESSAGE][PASSED] - Text 'Test' is set on object 'Object Repository/webui/checkoutPage/lastName'
+
+27-07-2025T12:15:18 - [MESSAGE][PASSED] - Text '10001' is set on object 'Object Repository/webui/checkoutPage/postalCode'
+
+27-07-2025T12:15:19 - [MESSAGE][PASSED] - Object: 'Object Repository/webui/checkoutPage/continueButton' is clicked on
+
+27-07-2025T12:15:19 - [MESSAGE][PASSED] - Object: 'Object Repository/webui/checkoutPage/checkoutFinish' is clicked on
+
+27-07-2025T12:15:20 - [MESSAGE][PASSED] - Text of object 'Object Repository/webui/checkoutPage/checkoutCompleteMessage' is: 'Thank you for your order!'
+
+27-07-2025T12:15:20 - [MESSAGE][INFO] - The final checkout message is Thank you for your order!
+
+27-07-2025T12:15:20 - [MESSAGE][INFO] - 0 hidden object(s)
+
+27-07-2025T12:15:20 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\Reetanshu Kumar\\Documents\\GitHub\\katalon-automation\\Reports\\20250727_121435\\validateProducts\\20250727_121435\\1753598720469.png]]
+
+27-07-2025T12:15:20 - [MESSAGE][PASSED] - projectUtils.Products.selectAndProductToCart is PASSED
+
+27-07-2025T12:15:20 - [MESSAGE][PASSED] - Current window's url is: 'https://www.saucedemo.com/checkout-complete.html'
+
+27-07-2025T12:15:20 - [MESSAGE][PASSED] - Navigate to 'https://www.saucedemo.com/inventory.html' successfully
+
+27-07-2025T12:15:21 - [MESSAGE][PASSED] - Object 'Object Repository/webui/productsCatalogPage/addProductToCart' is visible
+
+27-07-2025T12:15:21 - [MESSAGE][PASSED] - Object: 'Object Repository/webui/productsCatalogPage/addProductToCart' is clicked on
+
+27-07-2025T12:15:22 - [MESSAGE][PASSED] - Object: 'Object Repository/webui/productsCatalogPage/cartLink' is clicked on
+
+27-07-2025T12:15:23 - [MESSAGE][PASSED] - Object 'Object Repository/webui/cartPage/cartItemName' is visible
+
+27-07-2025T12:15:23 - [MESSAGE][INFO] - 0 hidden object(s)
+
+27-07-2025T12:15:23 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\Reetanshu Kumar\\Documents\\GitHub\\katalon-automation\\Reports\\20250727_121435\\validateProducts\\20250727_121435\\1753598723011.png]]
+
+27-07-2025T12:15:23 - [MESSAGE][PASSED] - Object: 'Object Repository/webui/cartPage/checkOut' is clicked on
+
+27-07-2025T12:15:24 - [MESSAGE][PASSED] - Object 'Object Repository/webui/checkoutPage/firstName' is present
+
+27-07-2025T12:15:25 - [MESSAGE][PASSED] - Text 'Katalon' is set on object 'Object Repository/webui/checkoutPage/firstName'
+
+27-07-2025T12:15:26 - [MESSAGE][PASSED] - Text 'Test' is set on object 'Object Repository/webui/checkoutPage/lastName'
+
+27-07-2025T12:15:27 - [MESSAGE][PASSED] - Text '10001' is set on object 'Object Repository/webui/checkoutPage/postalCode'
+
+27-07-2025T12:15:27 - [MESSAGE][PASSED] - Object: 'Object Repository/webui/checkoutPage/continueButton' is clicked on
+
+27-07-2025T12:15:28 - [MESSAGE][PASSED] - Object: 'Object Repository/webui/checkoutPage/checkoutFinish' is clicked on
+
+27-07-2025T12:15:28 - [MESSAGE][PASSED] - Text of object 'Object Repository/webui/checkoutPage/checkoutCompleteMessage' is: 'Thank you for your order!'
+
+27-07-2025T12:15:28 - [MESSAGE][INFO] - The final checkout message is Thank you for your order!
+
+27-07-2025T12:15:29 - [MESSAGE][INFO] - 0 hidden object(s)
+
+27-07-2025T12:15:29 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\Reetanshu Kumar\\Documents\\GitHub\\katalon-automation\\Reports\\20250727_121435\\validateProducts\\20250727_121435\\1753598728878.png]]
+
+27-07-2025T12:15:29 - [MESSAGE][PASSED] - projectUtils.Products.selectAndProductToCart is PASSED
+
+27-07-2025T12:15:29 - [MESSAGE][PASSED] - projectUtils.Products.addMultipleProducts is PASSED]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/utility/webuiLogout" time="2.399" classname="Test Cases/utility/webuiLogout" status="PASSED">
+         <system-out><![CDATA[27-07-2025T12:15:29 - [TEST_CASE][PASSED] - Test Cases/utility/webuiLogout: Test Cases/utility/webuiLogout
+
+27-07-2025T12:15:29 - [TEST_STEP][PASSED] - projectUtils.LoginLogoutUtils.logout(logoutUrl): projectUtils.LoginLogoutUtils.logout is PASSED
+
+27-07-2025T12:15:29 - [MESSAGE][PASSED] - Current window's url is: 'https://www.saucedemo.com/checkout-complete.html'
+
+27-07-2025T12:15:29 - [MESSAGE][PASSED] - Navigate to 'https://www.saucedemo.com/inventory.html' successfully
+
+27-07-2025T12:15:30 - [MESSAGE][PASSED] - Object 'Object Repository/webui/landingPage/burgerMenu' is visible
+
+27-07-2025T12:15:30 - [MESSAGE][PASSED] - Object: 'Object Repository/webui/landingPage/burgerMenu' is clicked on
+
+27-07-2025T12:15:30 - [MESSAGE][PASSED] - Object 'Object Repository/webui/landingPage/logoutLink' is visible
+
+27-07-2025T12:15:31 - [MESSAGE][PASSED] - Object: 'Object Repository/webui/landingPage/logoutLink' is clicked on
+
+27-07-2025T12:15:31 - [MESSAGE][PASSED] - projectUtils.LoginLogoutUtils.logout is PASSED
+
+27-07-2025T12:15:31 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+27-07-2025T12:15:31 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[27-07-2025T12:14:40 - [TEST_SUITE][PASSED] - validateProducts: null]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

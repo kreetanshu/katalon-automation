@@ -1,0 +1,16 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+validateProducts,Chrome 138.0.7204.158,,,27-07-2025 12:14:40,27-07-2025 12:15:31,51.589s,PASSED
+,,,,,,,
+Test Cases/utility/webuiLogin,Chrome 138.0.7204.158,,,27-07-2025 12:14:41,27-07-2025 12:14:52,11.367s,PASSED
+"projectUtils.LoginLogoutUtils.webLogin(loginUrl, username, password)",Chrome 138.0.7204.158,,,27-07-2025 12:14:42,27-07-2025 12:14:52,10.848s,PASSED
+,,,,,,,
+Test Cases/webui/products/validateProductCount,Chrome 138.0.7204.158,,,27-07-2025 12:14:52,27-07-2025 12:14:53,0.568s,PASSED
+expectedProductCount = 6,Chrome 138.0.7204.158,,,27-07-2025 12:14:53,27-07-2025 12:14:53,0.000s,PASSED
+projectUtils.Products.validateProductCount(expectedProductCount),Chrome 138.0.7204.158,,,27-07-2025 12:14:53,27-07-2025 12:14:53,0.343s,PASSED
+,,,,,,,
+Test Cases/webui/products/addMultipleProducts,Chrome 138.0.7204.158,,,27-07-2025 12:14:53,27-07-2025 12:15:29,35.829s,PASSED
+projectUtils.Products.addMultipleProducts(),Chrome 138.0.7204.158,,,27-07-2025 12:14:53,27-07-2025 12:15:29,35.663s,PASSED
+,,,,,,,
+Test Cases/utility/webuiLogout,Chrome 138.0.7204.158,,,27-07-2025 12:15:29,27-07-2025 12:15:31,2.399s,PASSED
+projectUtils.LoginLogoutUtils.logout(logoutUrl),Chrome 138.0.7204.158,,,27-07-2025 12:15:29,27-07-2025 12:15:31,1.837s,PASSED
+closeBrowser(),Chrome 138.0.7204.158,,,27-07-2025 12:15:31,27-07-2025 12:15:31,0.384s,PASSED

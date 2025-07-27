@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>webuiLogin</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>358ac668-68ca-4cdc-acaf-e4a9234a7bc8</testCaseGuid>
+</TestCaseEntity>
