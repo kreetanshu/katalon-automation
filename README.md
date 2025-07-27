@@ -4,6 +4,12 @@
 
 This project automates a shopping site using Katalon Studio. It demonstrates a **data-driven approach** by reading product data from an Excel file, adding those products to the cart, and proceeding with checkout. The automation also uses **advanced techniques** like parameterized XPaths for robust and reusable test objects.
 
+### Best practices covered
+1. Data-driven testing for scalability and maintainability.
+2. Use of parameterized XPaths for reusable and robust Test Objects.
+4. Clear separation of test data and test logic.
+5. Modular test case design for reusability.
+
 ---
 
 ### Test Cases Automated
@@ -16,7 +22,7 @@ This project automates a shopping site using Katalon Studio. It demonstrates a *
 
 ---
 
-### Automation Steps
+### Test scenario automated
 
 1. **Login:**  
    Uses a custom keyword to log in with provided credentials.
@@ -35,10 +41,6 @@ This project automates a shopping site using Katalon Studio. It demonstrates a *
 - Product names and details are stored in an Excel file.
 - The test case `addMultipleProducts` reads each row and adds the corresponding product.
 - This allows easy scaling: just update the Excel file to change test coverage.
-
-**Illustration:**  
-![Data Driven Flow](https://raw.githubusercontent.com/github/explore/main/topics/excel/excel.png)
-
 
 ### Advanced Automation Techniques
 
@@ -60,9 +62,3 @@ Test Object XPath: //div[text()='${productName}']/button
 Excel Data Row:    "Laptop"
 Resolved XPath:    //div[text()='Laptop']/button
 ```
-
-Best Practices Demonstrated
-1. Data-driven testing for scalability and maintainability.
-2. Use of parameterized XPaths for reusable and robust Test Objects.
-4. Clear separation of test data and test logic.
-5. Modular test case design for reusability.
