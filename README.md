@@ -51,14 +51,11 @@ This project automates a shopping site using Katalon Studio. It demonstrates a *
 
 ```groovy
 // Example parameterized XPath in Katalon
-// //div[text()='${productName}']/following-sibling::button[text()='Add to Cart']
+div[text()='${productName}']/ancestor::div[@class='inventory_item']//button[text()='Add to cart']
 ```
 
 During test execution, ${productName} is replaced with the actual product name from the Excel data.
-Illustration:
 
-```
-Test Object XPath: //div[text()='${productName}']/button
-Excel Data Row:    "Laptop"
-Resolved XPath:    //div[text()='Laptop']/button
-```
+Also using the product as a link we navigate to it's ancestor inventory item and then we are finding the "Add to cart" button for the product
+
+![xapth-axes](/Docs/img/Screenshot%202025-07-27%20212802.png)
