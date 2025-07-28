@@ -59,3 +59,11 @@ During test execution, ${productName} is replaced with the actual product name f
 Also using the product as a link we navigate to it's ancestor inventory item and then we are finding the "Add to cart" button for the product
 
 ![xapth-axes](/Docs/img/Screenshot%202025-07-27%20212802.png)
+
+### Test Execution and details
+
+1. This project uses [saucedemo](https://www.saucedemo.com/) practice site, The dev profile has been selected as default and this profile contains all the Global variables, refer if you want to change any key-value pairs
+
+2. A sample test suite [validateProducts](/Test%20Suites/validateProducts.ts) has been created. Use this test suite to run the test cases
+
+3. Reports of the test execution are stored under [reports](/Reports/) folder. Example: [HTML](/Reports/20250727_121435/validateProducts/20250727_121435/20250727_121435.html) is usefull as it captures steps details with embeded screenshots
